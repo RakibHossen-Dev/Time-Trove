@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- daisyui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#e1b788",
+              secondary: "#09090a",
+              textColor: "#f1f1f3",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="bg-secondary">
+      <div class="mx-auto w-11/12">
+        <nav class="flex justify-between items-center py-10 relative">
+          <div>
+            <a href="#" class="text-textColor text-xl lg:text-3xl font-bold">
+              <span class="text-primary">Time</span>Trove</a
+            >
+          </div>
+          <div id="main_Menu" class="hidden lg:block">
+            <ul
+              class="flex lg:flex-row flex-col justify-center items-center lg:gap-6 gap-4 lg:static absolute top-24 left-0 w-full bg-secondary py-5 z-10"
+            >
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="about.html"
+                  >About US</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="#"
+                  >Product</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="#"
+                  >New Arrivals</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="#"
+                  >Best Sellers</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="#"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="#"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="flex items-center justify-center gap-4 cursor-pointer">
+            <div class="flex items-center justify-center gap-1">
+              <p class="text-textColor lg:text-xl text-md">Card</p>
+              <p class="flex">
+                <span class="text-white"
+                  ><i
+                    class="fa-solid fa-cart-shopping text-primary lg:text-xl text-md"
+                  >
+                  </i
+                ></span>
+                <span
+                  class="w-4 h-4 p-2 flex justify-center items-center rounded-full text-sm text-textColor"
+                  >0</span
+                >
+              </p>
+            </div>
+            <div id="ham_bers" class="lg:hidden">
+              <i class="fa-solid fa-bars-staggered text-primary text-xl"></i>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="mx-auto w-11/12 my-10">
+      <h3
+        class="text-secondary mb-6 text-3xl font-bold border-b-4 w-36 pb-3 border-primary"
+      >
+        About Us
+      </h3>
+
+      <p class="lg:w-3/5 mb-4">
+        At TimeTorve, we are dedicated to creating timeless designs that blend
+        elegance, quality, and craftsmanship. With a passion for detail and a
+        commitment to excellence, we offer a curated selection of products that
+        reflect both modern trends and classic styles. Every piece in our
+        collection is thoughtfully crafted to ensure it not only enhances your
+        lifestyle but also stands the test of time.
+      </p>
+      <p class="lg:w-3/5">
+        Our mission is to provide our customers with unique, high-quality
+        designs while delivering an exceptional shopping experience. We believe
+        in offering more than just products—we offer a journey into the world of
+        sophistication and style. Thank you for being part of our story."
+      </p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

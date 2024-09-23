@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Trove.com</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- daisyui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#e1b788",
+              secondary: "#09090a",
+              textColor: "#f1f1f3",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="bg-secondary">
+      <div class="mx-auto w-11/12">
+        <nav class="flex justify-between items-center py-10 relative">
+          <div>
+            <a href="#" class="text-textColor text-xl lg:text-3xl font-bold">
+              <span class="text-primary">Time</span>Trove</a
+            >
+          </div>
+          <div id="main_Menu" class="hidden lg:block">
+            <ul
+              class="flex lg:flex-row flex-col justify-center items-center lg:gap-6 gap-4 lg:static absolute top-24 left-0 w-full bg-secondary py-5 z-10"
+            >
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="about.html"
+                  >About US</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="#"
+                  >Product</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="#"
+                  >New Arrivals</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="#"
+                  >Best Sellers</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="#"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-textColor font-semibold hover:text-primary"
+                  href="#"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="flex items-center justify-center gap-4 cursor-pointer">
+            <div class="flex items-center justify-center gap-1">
+              <p class="text-textColor lg:text-xl text-md">Card</p>
+              <p class="flex">
+                <span class="text-white"
+                  ><i
+                    class="fa-solid fa-cart-shopping text-primary lg:text-xl text-md"
+                  >
+                  </i
+                ></span>
+                <span
+                  class="w-4 h-4 p-2 flex justify-center items-center rounded-full text-sm text-textColor"
+                  >0</span
+                >
+              </p>
+            </div>
+            <div id="ham_bers" class="lg:hidden">
+              <i class="fa-solid fa-bars-staggered text-primary text-xl"></i>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- banner setion  -->
+      <section class="">
+        <div
+          class="hero h-[500px]"
+          style="background-image: url(images/banner.jpeg)"
+        >
+          <div class="hero-overlay bg-opacity-10"></div>
+          <div class="hero-content text-neutral-content text-center">
+            <div class="lg:w-8/12 w-11/12 mx-auto">
+              <h1 class="mb-6 lg:text-5xl text-3xl font-bold text-primary">
+                Discover the Perfect Watch for Ever Occasion
+              </h1>
+              <p class="mb-6">
+                Explore our latest collection of timeless designs, crafted for
+                elegance and durability. Enjoy exclusive offers available for a
+                limited time only. Shop now and elevate your style with premium
+                pieces!
+              </p>
+              <button
+                class="btn border-2 bg-transparent text-textColor rounded-none transition-colors duration-200 ease-in-out px-8 py-3 hover:bg-primary hover:border-none"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
