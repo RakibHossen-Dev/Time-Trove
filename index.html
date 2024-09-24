@@ -82,14 +82,14 @@
               <li>
                 <a
                   class="text-textColor font-semibold hover:text-primary"
-                  href="#"
+                  href="blog.html"
                   >Blog</a
                 >
               </li>
               <li>
                 <a
                   class="text-textColor font-semibold hover:text-primary"
-                  href="#"
+                  href="#contact_page"
                   >Contact Us</a
                 >
               </li>
@@ -343,7 +343,7 @@
         </div>
       </section>
 
-      <section id=" Best_Sellers" class="w-11/12 mx-auto my-16">
+      <section id="Best_Sellers" class="w-11/12 mx-auto my-16">
         <h3 class="text-secondary text-left text-3xl font-bold uppercase">
           Best Sellers
         </h3>
@@ -627,14 +627,14 @@
         </div>
       </section>
       <!-- constact us -->
-      <section class="my-10 w-11/12 mx-auto">
+      <section id="contact_page" class="my-10 w-11/12 mx-auto">
         <h3 class="text-center font-bold text-3xl uppercase">Contactus Us</h3>
         <div
           class="border-4 w-24 border-dashed border-secondary mx-auto mt-2 mb-8"
         ></div>
 
         <div class="flex lg:flex-row flex-col gap-6">
-          <div class="lg:w-1/2 w-11/12">
+          <div class="lg:w-1/2 lg:order-1 order-2">
             <iframe
               class="rounded-lg w-full h-full"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58563.27987915534!2d91.14204184692862!3d23.45306908387174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547f249815015d%3A0x549a77e542115f77!2sCumilla!5e0!3m2!1sen!2sbd!4v1727154994788!5m2!1sen!2sbd"
@@ -644,7 +644,7 @@
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div class="flex flex-col gap-3 lg:w-1/2 w-11/12">
+          <div class="flex flex-col gap-3 lg:w-1/2 lg:order-2 order-1">
             <div class="flex lg:flex-row flex-col gap-3">
               <input
                 class="w-full py-3 px-4 bg-primary text-textColor rounded-xl placeholder:text-textColor"
@@ -681,8 +681,9 @@
               placeholder="Type Your message"
               id=""
               cols="30"
-              rows="10"
+              rows="7"
             ></textarea>
+            <button class="btn bg-primary text-textColor">Submit</button>
           </div>
         </div>
       </section>
@@ -726,7 +727,7 @@
             <p class="text-primary text-xl mb-3">Subscribre Now</p>
             <div class="flex items-center gap-3">
               <input
-                class="bg-text border-none focus:outline-primary px-6 py-3 rounded-lg"
+                class="bg-text border-none focus:outline-primary lg:px-6 px-4 py-3 rounded-lg"
                 type="text"
                 placeholder="Enter your email"
               />
