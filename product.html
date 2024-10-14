@@ -98,7 +98,7 @@
           <div class="flex items-center justify-center gap-4 cursor-pointer">
             <div class="flex items-center justify-center gap-1">
               <p class="text-textColor lg:text-xl text-md">Card</p>
-              <p class="flex">
+              <a href="#showContainer" class="flex">
                 <span class="text-white"
                   ><i
                     class="fa-solid fa-cart-shopping text-primary lg:text-xl text-md"
@@ -106,11 +106,13 @@
                   </i
                 ></span>
                 <span
-                  class="w-4 h-4 p-2 flex justify-center items-center rounded-full text-sm text-textColor"
+                  id="card_box"
+                  class="w-4 h-4 p-2 flex justify-center items-center rounded-full text-sm bg-primary"
                   >0</span
                 >
-              </p>
+              </a>
             </div>
+
             <div id="ham_bers" class="lg:hidden">
               <i class="fa-solid fa-bars-staggered text-primary text-xl"></i>
             </div>
@@ -136,307 +138,15 @@
 
         <div class="mt-8 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-10">
           <!-- card start -->
-          <div
-            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4"
-          >
-            <img src="images/watch-3.jpg" alt="" />
-            <p>Sport</p>
-            <p class="text-secondary font-bold">Price: $100</p>
-
-            <div class="rating">
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                checked="checked"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-            </div>
-
-            <button
-              class="btn bg-secondary hover:bg-primary text-textColor w-full"
-            >
-              ADD TO CARD
-            </button>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4"
-          >
-            <img src="images/watch-2.jpg" alt="" />
-            <p>Robust Midnight</p>
-            <p class="text-secondary font-bold">Price: $120</p>
-
-            <div class="rating">
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                checked="checked"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-            </div>
-
-            <button
-              class="btn bg-secondary hover:bg-primary text-textColor w-full"
-            >
-              ADD TO CARD
-            </button>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4"
-          >
-            <img src="images/watch-3.jpg" alt="" />
-            <p>Sport</p>
-            <p class="text-secondary font-bold">Price: $100</p>
-
-            <div class="rating">
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                checked="checked"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-            </div>
-
-            <button
-              class="btn bg-secondary hover:bg-primary text-textColor w-full"
-            >
-              ADD TO CARD
-            </button>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4"
-          >
-            <img src="images/watch-5.jpg" alt="" />
-            <p>Slim and Elegant</p>
-            <p class="text-secondary font-bold">Price: $50</p>
-
-            <div class="rating">
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                checked="checked"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-            </div>
-
-            <button
-              class="btn bg-secondary hover:bg-primary text-textColor w-full"
-            >
-              ADD TO CARD
-            </button>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4"
-          >
-            <img src="images/watch-4.jpg" alt="" />
-            <p>Sport</p>
-            <p class="text-secondary font-bold">Price: $98</p>
-
-            <div class="rating">
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                checked="checked"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-            </div>
-
-            <button
-              class="btn bg-secondary hover:bg-primary text-textColor w-full"
-            >
-              ADD TO CARD
-            </button>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4"
-          >
-            <img src="images/watch-2.jpg" alt="" />
-            <p>Robust Midnight</p>
-            <p class="text-secondary font-bold">Price: $120</p>
-
-            <div class="rating">
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                checked="checked"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-            </div>
-
-            <button
-              class="btn bg-secondary hover:bg-primary text-textColor w-full"
-            >
-              ADD TO CARD
-            </button>
-          </div>
 
           <div
-            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4"
-          >
-            <img src="images/watch-3.jpg" alt="" />
-            <p>Sport</p>
-            <p class="text-secondary font-bold">Price: $100</p>
-
-            <div class="rating">
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                checked="checked"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-            </div>
-
-            <button
-              class="btn bg-secondary hover:bg-primary text-textColor w-full"
-            >
-              ADD TO CARD
-            </button>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4"
+            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4 watch_card"
           >
             <img src="images/watch1.png" alt="" />
-            <p>Sport</p>
-            <p class="text-secondary font-bold">Price: $40</p>
+            <h3 class="watch_name" data-product="Slim and Elegants">
+              Slim and Elegants
+            </h3>
+            <p class="text-secondary font-bold" data-price="40">Price: $40</p>
 
             <div class="rating">
               <input
@@ -468,7 +178,307 @@
             </div>
 
             <button
-              class="btn bg-secondary hover:bg-primary text-textColor w-full"
+              class="btn bg-secondary hover:bg-primary text-textColor w-full add_to_card"
+            >
+              ADD TO CARD
+            </button>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4 watch_card"
+          >
+            <img src="images/watch-3.jpg" alt="" />
+            <h3 class="watch_name" data-product="Sported">Sported</h3>
+            <p class="text-secondary font-bold" data-price="100">Price: $100</p>
+
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+
+            <button
+              class="btn bg-secondary hover:bg-primary text-textColor w-full add_to_card"
+            >
+              ADD TO CARD
+            </button>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4 watch_card"
+          >
+            <img src="images/watch-5.jpg" alt="" />
+            <h3 class="watch_name" data-product="Slim and Elegants">
+              Slim and Elegant
+            </h3>
+            <p class="text-secondary font-bold" data-price="50">Price: $50</p>
+
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+
+            <button
+              class="btn bg-secondary hover:bg-primary text-textColor w-full add_to_card"
+            >
+              ADD TO CARD
+            </button>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4 watch_card"
+          >
+            <img src="images/watch-4.jpg" alt="" />
+            <h3 class="watch_name" data-product="Sporteds">Sport</h3>
+            <p class="text-secondary font-bold" data-price="98">Price: $98</p>
+
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+
+            <button
+              class="btn bg-secondary hover:bg-primary text-textColor w-full add_to_card"
+            >
+              ADD TO CARD
+            </button>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4 watch_card"
+          >
+            <img src="images/watch-2.jpg" alt="" />
+            <h3 class="watch_name" data-product="Robust Midnight">
+              Robust Midnight
+            </h3>
+            <p class="text-secondary font-bold" data-price="120">Price: $120</p>
+
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+
+            <button
+              class="btn bg-secondary hover:bg-primary text-textColor w-full add_to_card"
+            >
+              ADD TO CARD
+            </button>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4 watch_card"
+          >
+            <img src="images/watch-3.jpg" alt="" />
+            <h3 class="watch_name" data-product="Sport">Sport</h3>
+            <p class="text-secondary font-bold" data-price="100">Price: $100</p>
+
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+
+            <button
+              class="btn bg-secondary hover:bg-primary text-textColor w-full add_to_card"
+            >
+              ADD TO CARD
+            </button>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4 watch_card"
+          >
+            <img src="images/watch-5.jpg" alt="" />
+            <h3 class="watch_name" data-product="Slim and Elegant">
+              Slim and Elegant
+            </h3>
+            <p class="text-secondary font-bold" data-price="50">Price: $50</p>
+
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+
+            <button
+              class="btn bg-secondary hover:bg-primary text-textColor w-full add_to_card"
+            >
+              ADD TO CARD
+            </button>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-3 shadow-lg rounded-lg p-4 watch_card"
+          >
+            <img src="images/watch-4.jpg" alt="" />
+            <h3 class="watch_name" data-product="Sports">Sports</h3>
+            <p class="text-secondary font-bold" data-price="98">Price: $98</p>
+
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+            </div>
+
+            <button
+              class="btn bg-secondary hover:bg-primary text-textColor w-full add_to_card"
             >
               ADD TO CARD
             </button>
